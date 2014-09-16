@@ -23,6 +23,12 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 	
 	public void testGeneral() {
 		this.mainActivity.general();
+		try {
+			Thread.sleep(5000);
+		} catch(InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
