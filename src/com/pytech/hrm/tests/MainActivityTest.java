@@ -27,6 +27,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 			Thread.sleep(5000);
 		} catch(InterruptedException e) {
 			// TODO Auto-generated catch block
+			// test
 			e.printStackTrace();
 		}
 	}
